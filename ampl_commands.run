@@ -1,0 +1,209 @@
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP2_2stdata.txt';
+model ./models/MP2.mod;
+data ./test_cases/2stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP2_3stdata.txt';
+model ./models/MP2.mod;
+data ./test_cases/3stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP2_4stdata.txt';
+model ./models/MP2.mod;
+data ./test_cases/4stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP2_5stdata.txt';
+model ./models/MP2.mod;
+data ./test_cases/5stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP2_6stdata.txt';
+model ./models/MP2.mod;
+data ./test_cases/6stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP2_7stdata.txt';
+model ./models/MP2.mod;
+data ./test_cases/7stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP2_8stdata.txt';
+model ./models/MP2.mod;
+data ./test_cases/8stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP2_9stdata.txt';
+model ./models/MP2.mod;
+data ./test_cases/9stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP2_10stdata.txt';
+model ./models/MP2.mod;
+data ./test_cases/10stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+
+
+
+
+#-------------------------------------------------------
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP1_2stdata.txt';
+model ./models/MP1.mod;
+data ./test_cases/2stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP1_3stdata.txt';
+model ./models/MP1.mod;
+data ./test_cases/3stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP1_4stdata.txt';
+model ./models/MP1.mod;
+data ./test_cases/4stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP1_5stdata.txt';
+model ./models/MP1.mod;
+data ./test_cases/5stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP1_6stdata.txt';
+model ./models/MP1.mod;
+data ./test_cases/6stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP1_7stdata.txt';
+model ./models/MP1.mod;
+data ./test_cases/7stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP1_8stdata.txt';
+model ./models/MP1.mod;
+data ./test_cases/8stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP1_9stdata.txt';
+model ./models/MP1.mod;
+data ./test_cases/9stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+reset;
+option solver octeract;
+option octeract_options 'PRINT_SOLUTION=true MAX_SOLVER_TIME=7200 NUM_CORES=12';
+option log_file './logs/MP1_10stdata.txt';
+model ./models/MP1.mod;
+data ./test_cases/10stdata.dat;
+#expand;
+solve;
+display _varname, _var;
+display objective_constraint;
+
+
